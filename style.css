@@ -253,3 +253,33 @@ header {
   -webkit-mask-image: linear-gradient(#000 0%, rgba(0, 0, 0, .99) 18.5%, rgba(0, 0, 0, .953) 34.3%, rgba(0, 0, 0, .894) 47.6%, rgba(0, 0, 0, .824) 58.5%, rgba(0, 0, 0, .74) 67.5%, rgba(0, 0, 0, .647) 74.7%, rgba(0, 0, 0, .55) 80.3%, rgba(0, 0, 0, .45) 84.7%, rgba(0, 0, 0, .353) 88%, rgba(0, 0, 0, .26) 90.5%, rgba(0, 0, 0, .176) 92.5%, rgba(0, 0, 0, .106) 94.2%, rgba(0, 0, 0, .047) 95.9%, rgba(0, 0, 0, .01) 97.7%, transparent 100%);
   mask-image: linear-gradient(#000 0%, rgba(0, 0, 0, .99) 18.5%, rgba(0, 0, 0, .953) 34.3%, rgba(0, 0, 0, .894) 47.6%, rgba(0, 0, 0, .824) 58.5%, rgba(0, 0, 0, .74) 67.5%, rgba(0, 0, 0, .647) 74.7%, rgba(0, 0, 0, .55) 80.3%, rgba(0, 0, 0, .45) 84.7%, rgba(0, 0, 0, .353) 88%, rgba(0, 0, 0, .26) 90.5%, rgba(0, 0, 0, .176) 92.5%, rgba(0, 0, 0, .106) 94.2%, rgba(0, 0, 0, .047) 95.9%, rgba(197, 195, 195, 0.01) 97.7%, transparent 100%)
 }
+
+
+.trusted-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 72px 32px 144px;
+  background-color: #ffffff;
+  gap: 60px;
+}
+
+
+.company-logo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1);
+  gap: 20px;
+  width: 100%;
+  max-width: 60vw;
+  margin: 0 auto;
+}
+
+.img-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+  height: 64px;
+}
