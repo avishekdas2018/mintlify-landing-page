@@ -95,3 +95,5 @@ git clone <repository-url>
 ```bash
 cd docs-site
 ```
+
+![alt text](screencapture-127-0-0-1-5501-index-html-2026-02-07-12_23_18.png)
