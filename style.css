@@ -904,7 +904,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 64px 32px 24px;
-  border-bottom: 1px solid #e7e7e7;
+  /* border-bottom: 1px solid #e7e7e7; */
   border-left: 1px solid #e7e7e7;
   border-right: 1px solid #e7e7e7;
 
@@ -915,11 +915,12 @@ header {
 .footer-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  width: 55%;
-  margin: 0 auto;
-  padding: 60px;
+  width: 100%;
+  /* margin: 0 auto; */
+  padding: 40px;
   margin-bottom: 60px;
-  border: 1px solid #e7e7e7;
+  gap: 20px;
+  /* border: 1px solid #e7e7e7; */
 }
 
 .footer-container-item {
@@ -988,4 +989,11 @@ header {
   padding: 5px 0px;
   font-weight: 600;
   line-height: 1.8;
+}
+
+.footer-border {
+  border: 1px solid #e7e7e7;
+  height: 520px;
+  width: 58.35vw;
+  margin: 0 auto;
 }
